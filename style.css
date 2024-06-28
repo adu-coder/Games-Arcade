@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: aliceblue;
+  background-color: black;
+}
+
+h1 {
+  font-size: 4rem;
+  margin: 50px 0px 100px 0px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 3rem;
+  margin: 0px 0px 40px 50px;
+}
+
+h3 {
+  font-size: 2rem;
+  margin: 0px 0px 30px 70px;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+.social {
+  display: flex;
+  width: 8rem;
+  justify-content: space-evenly;
+  position: absolute;
+  right: 0;
+}
